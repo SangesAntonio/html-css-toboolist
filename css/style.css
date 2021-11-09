@@ -10,6 +10,7 @@
 
 /*utilityes*/
 .background{
+    padding-top: 30px;
     width: auto;
     height: 100vh;
     background-color: rgb(215, 234, 251);
@@ -47,6 +48,7 @@
 }
 
 .buttons-add{
+    padding: 10px;
     margin-bottom: 30px;
 }
 
@@ -78,7 +80,8 @@ li{
 }
 
 .pill{
-    border-radius: 20%;
+    border-radius: 5px;
+    padding: 1px;
 
 }
 
@@ -96,4 +99,12 @@ li{
 
 .mobile{
     background-color: orange;
+}
+
+.sale{
+    background-color: rgb(78, 238, 78);
+}
+
+.website{
+    background-color: plum;
 }
