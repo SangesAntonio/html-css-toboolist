@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,10 @@ body{
     width: auto;
     height: 100vh;
     background-color: rgb(215, 234, 251);
+    
 }
+
+
 
 /*logo e titolo*/
 #toboolist-banner{
@@ -32,4 +35,43 @@ body{
     display: inline-block;
     vertical-align: middle;
     font-weight: bold;
-    
+}
+/*buttons*/
+
+#main-page{
+    width: 60%;
+    height: 800px;
+    padding-left: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.buttons-add{
+    margin-bottom: 30px;
+}
+
+.add-task{
+    background-color: rgb(57, 197, 240);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.add-section{
+    border: 1px solid gray;
+    border-radius: 5px ;
+    text-decoration: none;
+    padding: 5px;
+    color: grey;
+}
+
+/*list*/
+ul{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+li{
+    font-weight: normal;
+    font-size: 12px;
+}
