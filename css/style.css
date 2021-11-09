@@ -2,6 +2,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*utilityes*/
@@ -16,4 +20,16 @@ body{
     background-color: white;
     height: 100px;
     width: auto;
+    display: inline-block;
 }
+
+#logo{
+    margin: 25px 0px 25px 45px;
+    vertical-align: middle;
+}
+
+.main-title{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    
